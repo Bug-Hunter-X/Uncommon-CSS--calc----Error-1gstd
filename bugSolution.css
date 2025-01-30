@@ -1,0 +1,12 @@
+The error lies in the calculation for the width of the element.  Spaces are missing between the `+` operator and its operands, and units are not consistent.
+
+**Incorrect CSS (`bug.css`):**
+```css
+#myElement { width:calc(100px+20%); }
+```
+
+**Corrected CSS (`bugSolution.css`):**
+```css
+#myElement { width: calc(100px + 20%); }
+```
+This corrected version includes the necessary spaces around the `+` operator.  Ensure units are consistent throughout the calculation (px, %, em, etc.) to avoid unexpected results.
