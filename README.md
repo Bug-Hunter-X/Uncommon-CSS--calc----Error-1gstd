@@ -1,0 +1,1 @@
+This example demonstrates a common error when using the CSS `calc()` function: forgetting spaces around operators or mixing units incorrectly. The solution shows the corrected code.
